@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Poppins-semi-Bold';
+    src: url('Poppins/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Poppins-Light-regular';
+    src: url('Poppins/Poppins-Light.ttf');
+}
+
+html{
+    background-image: url('ressource/pexels-karolina-grabowska-4386466.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    background-color: rgb(255, 201, 85);
+    height: 70px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border: none;
+    box-shadow: 2px 2px 3px 0px rgba(121, 120, 120, 0.642);
+}
+img{
+    height: 35px;
+}
+h1{
+    font-size: 17px;
+    font-family: 'Poppins-semi-Bold';
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;    
+}
+#div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    width: 300px;
+    height: 350px;
+    padding-top: 55px;
+    box-shadow: 2px 2px 3px 0px rgba(121, 120, 120, 0.642);
+}
+#p{
+    border-radius: 55px;
+    background-color: rgb(255, 201, 85);
+    width: 105px;
+    height: 45px;
+    margin: 10px;
+    margin-bottom: 25px;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    transition-delay: 0.02s;
+    font-family: 'Poppins-semi-Bold';
+    color: white;
+}
+#p:hover{
+    transform: scale(1.05);
+}
+input{
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 5px;
+    border: solid black 0px;
+    border-radius: 55px;
+    background-color: rgba(185, 185, 185, 0.406);
+}
+#title{
+    font-size: 20px;
+    margin: 12px;
+}
+#votre{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(255, 201, 85);
+    padding: 5px;
+    border-radius: 15px;
+}
+#score{
+    color: rgb(255, 201, 85);
+    font-size: 25px;
+    margin: 0px;
+}
+#display{
+    font-family: 'Poppins-semi-Bold';
+    display: none;
+    justify-content: center;
+    position: absolute;
+    height: 275px;
+    width: 275px;
+    background-color: white;
+    left: 150px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 3px 0px rgba(121, 120, 120, 0.642);
+    padding: 0px;
+}
+#check{
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+}
+#check p{
+    margin: 0px;
+    font-family: 'Poppins-Light-regular';
+    margin-left: 3px;
+}

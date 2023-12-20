@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>IMC</title>
+</head>
+<body>
+    <header>
+        <img src="ressource/coeur.png" alt="icone">
+    </header>
+    <div id="div">
+        <div id="div1">
+            <h1>Calculez votre IMC</h1>
+            <div>
+                <input type="number" onkeyUp="verifpoid()" id="i1"  placeholder="Entrer une valeur en kg" required>
+                <input type="number" id="i2" onkeyUp="veriftaille()" placeholder="Entrer votre taille en cm" required>
+                <input type="text" id="i3" placeholder="Prénom (facultatif)">
+                <input type="text" id="i4"  placeholder="Email (facultatif)">
+            </div>    
+            <div id="div2" onClick="action()">
+                <div id="p"><p>Calculer</p></div>
+            </div>
+            <div id="display">
+            </div>
+            <div id="check">
+                <input type="checkbox">
+                <p>Je souhaite recevoir, par email, les offres promotionnelles de la société CROQ'KILOSSS</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
